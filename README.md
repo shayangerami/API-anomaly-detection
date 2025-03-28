@@ -12,11 +12,22 @@ This project implements a neural network-based anomaly detection system for API 
 - Comprehensive security metrics tracking
 
 ## Project Structure
+
 ```
-.
+├── API/              # API-related data and configurations
+├── catboost_info/    # CatBoost model information and artifacts
+├── logs/             # Training logs and TensorBoard data
 ├── NeuralNet.py      # Neural network implementation
 ├── Preprocess.py     # Data preprocessing utilities
-└── README.md         # Project documentation
+├── Model.py          # Traditional ML model implementation and training (for phase1)
+├── Evaluate.py       # Model evaluation and metrics
+├── FileReading.py    # File reading utilities
+├── main.py           # Main execution script
+├── main2.py          # Main execution script for phase 2
+├── requirements.txt  # Project dependencies
+├── .gitignore       # Git ignore rules
+├── .gitattributes   # Git attributes for LFS
+└── README.md        # Project documentation
 ```
 
 ## Dependencies
