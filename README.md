@@ -31,16 +31,24 @@ This project implements a neural network-based anomaly detection system for API 
 ```
 
 ## Dependencies
-- TensorFlow
-- NumPy
-- scikit-learn
-- TensorBoard
+- TensorFlow - Deep learning framework
+- NumPy - Numerical computing
+- scikit-learn - Machine learning utilities
+- TensorBoard - Training visualization
+- pandas - Data manipulation and analysis
+- matplotlib - Data visualization
+- seaborn - Statistical data visualization
+- imbalanced-learn - Handling imbalanced datasets
+- XGBoost - Gradient boosting framework
+- LightGBM - Gradient boosting framework
+- CatBoost - Gradient boosting framework
+- tabulate - Terminal table formatting
 
 ## Installation
 1. Clone the repository
 2. Install required packages:
 ```bash
-pip install tensorflow numpy scikit-learn
+pip install -r requirements.txt
 ```
 
 ## Usage
